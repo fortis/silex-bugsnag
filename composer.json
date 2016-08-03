@@ -1,0 +1,22 @@
+{
+    "name": "fortis/silex-bugsnag",
+    "type": "library",
+    "description": "The Bugsnag middleware for Silex",
+    "keywords": ["bugsnag", "errors", "logging", "tracking", "exceptions"],
+    "homepage": "http://github.com/fortis/silex-bugsnag",
+    "license": "GPL",
+    "authors": [{
+        "name": "Alan Bondarchuk",
+        "email": "imacoda@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.5.9",
+        "silex/silex": "^2.0",
+        "bugsnag/bugsnag": "^3.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Bugsnag": "src/"
+        }
+    }
+}
