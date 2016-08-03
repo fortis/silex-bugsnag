@@ -1,7 +1,7 @@
 {
     "name": "fortis/silex-bugsnag",
     "type": "library",
-    "description": "The Bugsnag middleware for Silex",
+    "description": "Bugsnag error reporting integration for Silex 2",
     "keywords": ["bugsnag", "errors", "logging", "tracking", "exceptions"],
     "homepage": "http://github.com/fortis/silex-bugsnag",
     "license": "GPL",
